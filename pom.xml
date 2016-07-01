@@ -62,14 +62,14 @@
     <!-- _vp_ 20151024 20151027 -->
     <distributionManagement>
       <repository>
-         <id>deployment</id>
-         <name>Internal Releases</name>
-         <url>http://localhost:8081/repository/maven-releases</url>
+         <id>nexus</id>
+         <name>Nexus Snapshot</name>
+         <url>http://localhost:9091/nexus/content/repositories/demo</url>
       </repository>
       <snapshotRepository>
          <id>deployment</id>
          <name>Internal Snapshot Releases</name>
-         <url>http://localhost:8081/repository/maven-snapshots</url>
+         <url>http://localhost:9091/nexus/content/repositories/demo</url>
       </snapshotRepository>
     </distributionManagement>
 
